@@ -1,0 +1,167 @@
+{
+    "exercises": [
+        {
+        "name": "Squat",
+        "muscleGroup": "Legs",
+        "mainMuscle": "Quadriceps",
+        "secondaryMuscles": ["Glutes", "Hamstrings"],
+        "DifficultyEquipment": {
+                "Advanced": "Barbell",
+                "Intermediate": "Dumbbells",
+                "Beginner": "Bodyweight"
+            }
+        },
+        {
+            "name": "Bench Press",
+            "muscleGroup": "Chest",
+            "mainMuscle": "Pectorals",
+            "secondaryMuscles": ["Triceps", "Shoulders"],
+            "DifficultyEquipment": {
+                "Advanced": "Barbell",
+                "Intermediate": "Dumbbells"
+            }
+        },
+        {
+            "name": "Deadlift",
+            "muscleGroup": "Back",
+            "mainMuscle": "Erector Spinae",
+            "secondaryMuscles": ["Glutes", "Hamstrings", "Traps"],
+            "DifficultyEquipment": {
+                "Advanced": "Barbell",
+                "Intermediate": "Dumbbells"
+            }
+        },
+        {
+            "name": "Overhead Press",
+            "muscleGroup": "Shoulders",
+            "mainMuscle": "Deltoids",
+            "secondaryMuscles": ["Triceps", "Upper Chest"],
+            "DifficultyEquipment": {
+                "Advanced": "Barbell",
+                "Intermediate": "Dumbbells"
+            }
+        },
+        {
+            "name": "Pull-Up",
+            "muscleGroup": "Back",
+            "mainMuscle": "Latissimus Dorsi",
+            "secondaryMuscles": ["Biceps", "Forearms"],
+            "DifficultyEquipment": {
+                "Advanced": "Weighted Pull-Ups",
+                "Intermediate": "Bodyweight Pull-Ups",
+                "Beginner": "Assisted Pull-Ups"
+            }
+        },
+        {
+            "name": "Bicep Curl",
+            "muscleGroup": "Arms",
+            "mainMuscle": "Biceps Brachii",
+            "secondaryMuscles": [],
+            "DifficultyEquipment": {
+                "Intermediate": "Dumbbells",
+                "Beginner": "Resistance Bands"
+            }
+        },
+        {
+            "name": "Tricep Dip",
+            "muscleGroup": "Arms",
+            "mainMuscle": "Triceps Brachii",
+            "secondaryMuscles": ["Chest", "Shoulders"],
+            "DifficultyEquipment": {
+                "Intermediate": "Parallel Bars",
+                "Beginner": "Bench or Chair"
+            }
+        },
+        {
+            "name": "Lunges",
+            "muscleGroup": "Legs",
+            "mainMuscle": "Quadriceps",
+            "secondaryMuscles": ["Glutes", "Hamstrings"],
+            "DifficultyEquipment": {
+                "Intermediate": "Dumbbells",
+                "Beginner": "Bodyweight"
+            }
+        },       
+        {
+            "name": "Pec Deck Fly",
+            "muscleGroup": "Chest",
+            "mainMuscle": "Pectorals",
+            "secondaryMuscles": [],
+            "DifficultyEquipment": {
+                "Intermediate": "Pec Deck Machine",
+                "Beginner": "Resistance Bands"
+            }
+        },
+        {
+            "name": "Leg Press",
+            "muscleGroup": "Legs",
+            "mainMuscle": "Quadriceps",
+            "secondaryMuscles": ["Glutes", "Hamstrings"],
+            "DifficultyEquipment": {
+                "Intermediate": "Leg Press Machine"
+            }
+        },
+        {
+            "name": "Chin-Up",
+            "muscleGroup": "Back",
+            "mainMuscle": "Latissimus Dorsi",
+            "secondaryMuscles": ["Biceps", "Forearms"],
+            "DifficultyEquipment": {
+                "Advanced": "Weighted Chin-Ups",
+                "Intermediate": "Bodyweight Chin-Ups",
+                "Beginner": "Assisted Chin-Ups"
+            }
+        },
+        {
+            "name": "Lateral Raise",
+            "muscleGroup": "Shoulders",
+            "mainMuscle": "Deltoids",
+            "secondaryMuscles": [],
+            "DifficultyEquipment": {
+                "Advanced":"Cable Machine",
+                "Intermediate": "Dumbbells",
+                "Beginner": "Resistance Bands"
+            }
+        },
+        {
+            "name": "Concentration Curl",
+            "muscleGroup": "Arms",
+            "mainMuscle": "Biceps Brachii",
+            "secondaryMuscles": [],
+            "DifficultyEquipment": {
+                "Intermediate": "Dumbbells",
+                "Beginner": "Resistance Bands"
+            }
+        },
+        {
+            "name": "Hammer Curl",
+            "muscleGroup": "Arms",
+            "mainMuscle": "Biceps Brachii",
+            "secondaryMuscles": ["Brachialis", "Forearms"],
+            "DifficultyEquipment": {
+                "Intermediate": "Dumbbells",
+                "Beginner": "Resistance Bands"
+            }
+        },
+        {
+            "name": "Leg Curl",
+            "muscleGroup": "Legs",
+            "mainMuscle": "Hamstrings",
+            "secondaryMuscles": [],
+            "DifficultyEquipment": {
+                "Intermediate": "Leg Curl Machine"
+            }
+        },
+        {
+            "name": "Calf Raise",
+            "muscleGroup": "Legs",
+            "mainMuscle": "Gastrocnemius",
+            "secondaryMuscles": ["Soleus"],
+            "DifficultyEquipment": {
+                "Advanced": "Standing Calf Raise Machine",
+                "Intermediate": "Dumbbells",
+                "Beginner": "Bodyweight"
+            }
+        }
+    ]
+}
