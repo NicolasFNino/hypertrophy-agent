@@ -33,7 +33,7 @@ public class UserProfile {
 
     private String determineTrainingSplit() {
         if (trainingDays <= 3) {
-            return "Full Body";
+            return "Full Body "+trainingDays+"x";
         } else if (trainingDays == 4) {
             return "Upper/Lower Split";
         } else if (trainingDays == 5) {
