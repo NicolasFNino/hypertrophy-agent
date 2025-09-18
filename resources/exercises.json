@@ -1,11 +1,11 @@
 {
     "exercises": [
         {
-        "name": "Squat",
-        "muscleGroup": "Legs",
-        "mainMuscle": "Quadriceps",
-        "secondaryMuscles": ["Glutes", "Hamstrings"],
-        "DifficultyEquipment": {
+            "name": "Squat",
+            "muscleGroup": "Legs",
+            "primaryMuscle": "Quadriceps",
+            "secondaryMuscles": ["Glutes", "Hamstrings"],
+            "Difficult`yEquipment": {
                 "Advanced": "Barbell",
                 "Intermediate": "Dumbbells",
                 "Beginner": "Bodyweight"
@@ -14,7 +14,7 @@
         {
             "name": "Bench Press",
             "muscleGroup": "Chest",
-            "mainMuscle": "Pectorals",
+            "primaryMuscle": "Pectorals",
             "secondaryMuscles": ["Triceps", "Shoulders"],
             "DifficultyEquipment": {
                 "Advanced": "Barbell",
@@ -24,7 +24,7 @@
         {
             "name": "Deadlift",
             "muscleGroup": "Back",
-            "mainMuscle": "Erector Spinae",
+            "primaryMuscle": "Erector Spinae",
             "secondaryMuscles": ["Glutes", "Hamstrings", "Traps"],
             "DifficultyEquipment": {
                 "Advanced": "Barbell",
@@ -34,7 +34,7 @@
         {
             "name": "Overhead Press",
             "muscleGroup": "Shoulders",
-            "mainMuscle": "Deltoids",
+            "primaryMuscle": "Deltoids",
             "secondaryMuscles": ["Triceps", "Upper Chest"],
             "DifficultyEquipment": {
                 "Advanced": "Barbell",
@@ -44,7 +44,7 @@
         {
             "name": "Pull-Up",
             "muscleGroup": "Back",
-            "mainMuscle": "Latissimus Dorsi",
+            "primaryMuscle": "Latissimus Dorsi",
             "secondaryMuscles": ["Biceps", "Forearms"],
             "DifficultyEquipment": {
                 "Advanced": "Weighted Pull-Ups",
@@ -55,7 +55,7 @@
         {
             "name": "Bicep Curl",
             "muscleGroup": "Arms",
-            "mainMuscle": "Biceps Brachii",
+            "primaryMuscle": "Biceps Brachii",
             "secondaryMuscles": [],
             "DifficultyEquipment": {
                 "Intermediate": "Dumbbells",
@@ -65,7 +65,7 @@
         {
             "name": "Tricep Dip",
             "muscleGroup": "Arms",
-            "mainMuscle": "Triceps Brachii",
+            "primaryMuscle": "Triceps Brachii",
             "secondaryMuscles": ["Chest", "Shoulders"],
             "DifficultyEquipment": {
                 "Intermediate": "Parallel Bars",
@@ -75,7 +75,7 @@
         {
             "name": "Lunges",
             "muscleGroup": "Legs",
-            "mainMuscle": "Quadriceps",
+            "primaryMuscle": "Quadriceps",
             "secondaryMuscles": ["Glutes", "Hamstrings"],
             "DifficultyEquipment": {
                 "Intermediate": "Dumbbells",
@@ -85,7 +85,7 @@
         {
             "name": "Pec Deck Fly",
             "muscleGroup": "Chest",
-            "mainMuscle": "Pectorals",
+            "primaryMuscle": "Pectorals",
             "secondaryMuscles": [],
             "DifficultyEquipment": {
                 "Intermediate": "Pec Deck Machine",
@@ -95,7 +95,7 @@
         {
             "name": "Leg Press",
             "muscleGroup": "Legs",
-            "mainMuscle": "Quadriceps",
+            "primaryMuscle": "Quadriceps",
             "secondaryMuscles": ["Glutes", "Hamstrings"],
             "DifficultyEquipment": {
                 "Intermediate": "Leg Press Machine"
@@ -104,7 +104,7 @@
         {
             "name": "Chin-Up",
             "muscleGroup": "Back",
-            "mainMuscle": "Latissimus Dorsi",
+            "primaryMuscle": "Latissimus Dorsi",
             "secondaryMuscles": ["Biceps", "Forearms"],
             "DifficultyEquipment": {
                 "Advanced": "Weighted Chin-Ups",
@@ -115,7 +115,7 @@
         {
             "name": "Lateral Raise",
             "muscleGroup": "Shoulders",
-            "mainMuscle": "Deltoids",
+            "primaryMuscle": "Deltoids",
             "secondaryMuscles": [],
             "DifficultyEquipment": {
                 "Advanced":"Cable Machine",
@@ -126,7 +126,7 @@
         {
             "name": "Concentration Curl",
             "muscleGroup": "Arms",
-            "mainMuscle": "Biceps Brachii",
+            "primaryMuscle": "Biceps Brachii",
             "secondaryMuscles": [],
             "DifficultyEquipment": {
                 "Intermediate": "Dumbbells",
@@ -136,7 +136,7 @@
         {
             "name": "Hammer Curl",
             "muscleGroup": "Arms",
-            "mainMuscle": "Biceps Brachii",
+            "primaryMuscle": "Biceps Brachii",
             "secondaryMuscles": ["Brachialis", "Forearms"],
             "DifficultyEquipment": {
                 "Intermediate": "Dumbbells",
@@ -146,7 +146,7 @@
         {
             "name": "Leg Curl",
             "muscleGroup": "Legs",
-            "mainMuscle": "Hamstrings",
+            "primaryMuscle": "Hamstrings",
             "secondaryMuscles": [],
             "DifficultyEquipment": {
                 "Intermediate": "Leg Curl Machine"
@@ -155,7 +155,7 @@
         {
             "name": "Calf Raise",
             "muscleGroup": "Legs",
-            "mainMuscle": "Gastrocnemius",
+            "primaryMuscle": "Gastrocnemius",
             "secondaryMuscles": ["Soleus"],
             "DifficultyEquipment": {
                 "Advanced": "Standing Calf Raise Machine",

@@ -10,6 +10,7 @@ public class Main {
         System.out.println("\nUser Profile Created:" + profile.toString());
 
         profile.workoutPlan = profile.generateWorkoutPlan();
+        profile.workoutPlan.populatePlan();
         System.out.println("\nGenerated Workout Plan:" + profile.workoutPlan.toString());
     }
 
