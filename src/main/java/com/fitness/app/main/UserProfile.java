@@ -32,16 +32,18 @@ public class UserProfile {
     }
 
     private String determineTrainingSplit() {
-        if (trainingDays <= 3) {
-            return "Full Body "+trainingDays+"x";
+        if (trainingDays < 3) {
+            return "FULL_BODY";
+        } else if (trainingDays ==3 ) {
+            return "PUSH_PULL_LEGS";
         } else if (trainingDays == 4) {
-            return "Upper/Lower Split";
+            return "UPPER_LOWER";
         } else if (trainingDays == 5) {
-            return "Push/Pull/Legs + Upper/Lower";
+            return "PUSH_PULL_LEGS_UPPER_LOWER";
         } else if(trainingDays == 6) {
-            return "Push/Pull/Legs x2";
+            return "PUSH_PULL_LEGS_TWO";
         } else {
-            return "Body Part Split";
+            return "BODY_PART_SPLIT";
         }
     }
 

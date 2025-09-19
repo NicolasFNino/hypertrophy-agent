@@ -3,12 +3,19 @@ package com.fitness.app.main;
 import com.fitness.app.util.Enums.*;
 import com.fitness.app.main.WorkoutDay;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
 public class WorkoutPlan {
     public int experienceLevel;
     public Splits trainingSplit;
     public String targetProgram;
 
     public WorkoutDay[] days; 
+    
+    private List<Exercise> exerciseLibrary = new ArrayList<>();
 
     public WorkoutPlan(int experienceLevel, String trainingSplit, int trainingDays, String targetProgram) {
         this.experienceLevel = experienceLevel;
@@ -19,6 +26,7 @@ public class WorkoutPlan {
 
     public void populatePlan() {
         craftSplit();
+        loadExercises();
         addExercisesToDays();
     }
 
@@ -68,10 +76,50 @@ public class WorkoutPlan {
         }
     }
 
-    private void addExercisesToDays() {
-        for (WorkoutDay day : this.days) {
-            day.addExercise(new Exercise("Sample Exercise", 3, 10, "60s"), 0);
+    private void loadExercises() {
+        System.out.println("Loading exercises for the workout plan...");
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            InputStream is = this.getClass().getClassLoader().getResourceAsStream("exercises.json");
+            if (is == null) {
+                System.out.println("Could not find exercises.json on classpath");
+                return;
+            }
+            ExercisesFile file = mapper.readValue(is, ExercisesFile.class);
+            if (file != null && file.exercises != null) {
+                for (Exercise e : file.exercises) {
+                    // pick default equipment based on plan experience level
+                    e.chooseEquipmentForLevel(this.experienceLevel);
+                    this.exerciseLibrary.add(e);
+                }
+            }
+            System.out.println("Loaded " + this.exerciseLibrary.size() + " exercises.");
+        } catch (Exception ex) {
+            System.out.println("Error loading exercises: " + ex.getMessage());
+            ex.printStackTrace();
         }
+    }
+
+    private void addExercisesToDays() {
+        if (this.exerciseLibrary.isEmpty()) {
+            for (WorkoutDay day : this.days) {
+                day.addExercise(new Exercise("Sample Exercise", 3, 10, "60s"), 0);
+            }
+            return;
+        }
+
+        int libIndex = 0;
+        for (WorkoutDay day : this.days) {
+            // rotate through library and add at index 0
+            Exercise e = this.exerciseLibrary.get(libIndex % this.exerciseLibrary.size());
+            day.addExercise(e, 0);
+            libIndex++;
+        }
+    }
+
+    // small DTO to match exercises.json
+    private static class ExercisesFile {
+        public Exercise[] exercises;
     }
 
     private Splits getSplitFromString(String split) {
@@ -86,6 +134,8 @@ public class WorkoutPlan {
                 return Splits.PUSH_PULL_LEGS_TWO;
             case "BODY_PART_SPLIT":
                 return Splits.BODY_PART_SPLIT;
+            case "PUSH_PULL_LEGS_UPPER_LOWER":
+                return Splits.PUSH_PULL_LEGS_TWO;
             default:
                 throw new IllegalArgumentException("Invalid training split: " + split);
         }
