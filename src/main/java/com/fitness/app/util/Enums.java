@@ -1,4 +1,4 @@
-package util;
+package com.fitness.app.util;
 
 public class Enums {
     

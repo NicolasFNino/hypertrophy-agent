@@ -1,7 +1,7 @@
-package main;
+package com.fitness.app.main;
 
-import util.Enums;
-import main.WorkoutDay;
+import com.fitness.app.util.Enums.*;
+import com.fitness.app.main.WorkoutDay;
 
 public class WorkoutPlan {
     public int experienceLevel;
@@ -53,14 +53,14 @@ public class WorkoutPlan {
                 String[] cycle = {PPL_Days.PUSH.name(), PPL_Days.PULL.name(), PPL_Days.LEGS.name(),
                                   PPL_Days.PUSH.name(), PPL_Days.PULL.name(), PPL_Days.LEGS.name()};
                 for (int i = 0; i < this.days.length; i++) {
-                    this.days[i] = new WorkoutDay(Enums.PPL_Days.valueOf(cycle[i]));
+                    this.days[i] = new WorkoutDay(PPL_Days.valueOf(cycle[i]));
                 }
                 break;
             case BODY_PART_SPLIT:
                 String[] bpCycle = {BP_Days.CHEST.name(), BP_Days.BACK.name(), BP_Days.LEGS.name(),
                                     BP_Days.SHOULDERS.name(), BP_Days.CORE.name()};
                 for (int i = 0; i < this.days.length; i++) {
-                    this.days[i] = new WorkoutDay(Enums.BP_Days.valueOf(bpCycle[i]));
+                    this.days[i] = new WorkoutDay(BP_Days.valueOf(bpCycle[i]));
                 }
                 break;
             default:

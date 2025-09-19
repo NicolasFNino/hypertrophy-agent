@@ -1,4 +1,4 @@
-package main;
+package com.fitness.app.main;
 
 public class Exercise {
     public String name;

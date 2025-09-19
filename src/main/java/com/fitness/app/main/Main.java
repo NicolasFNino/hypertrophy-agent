@@ -1,8 +1,8 @@
-package main;
+package com.fitness.app.main;
 
 import java.util.Scanner;
 
-import main.UserProfile;
+import com.fitness.app.main.UserProfile;
 
 public class Main {
     public static void main(String[] args) {

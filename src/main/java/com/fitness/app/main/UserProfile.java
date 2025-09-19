@@ -1,6 +1,6 @@
-package main;
+package com.fitness.app.main;
 
-import main.WorkoutPlan;
+import com.fitness.app.main.WorkoutPlan;
 
 public class UserProfile {
     public String name;

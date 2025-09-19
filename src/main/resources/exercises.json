@@ -5,7 +5,7 @@
             "muscleGroup": "Legs",
             "primaryMuscle": "Quadriceps",
             "secondaryMuscles": ["Glutes", "Hamstrings"],
-            "Difficult`yEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Barbell",
                 "Intermediate": "Dumbbells",
                 "Beginner": "Bodyweight"
@@ -16,7 +16,7 @@
             "muscleGroup": "Chest",
             "primaryMuscle": "Pectorals",
             "secondaryMuscles": ["Triceps", "Shoulders"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Barbell",
                 "Intermediate": "Dumbbells"
             }
@@ -26,7 +26,7 @@
             "muscleGroup": "Back",
             "primaryMuscle": "Erector Spinae",
             "secondaryMuscles": ["Glutes", "Hamstrings", "Traps"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Barbell",
                 "Intermediate": "Dumbbells"
             }
@@ -36,7 +36,7 @@
             "muscleGroup": "Shoulders",
             "primaryMuscle": "Deltoids",
             "secondaryMuscles": ["Triceps", "Upper Chest"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Barbell",
                 "Intermediate": "Dumbbells"
             }
@@ -46,7 +46,7 @@
             "muscleGroup": "Back",
             "primaryMuscle": "Latissimus Dorsi",
             "secondaryMuscles": ["Biceps", "Forearms"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Weighted Pull-Ups",
                 "Intermediate": "Bodyweight Pull-Ups",
                 "Beginner": "Assisted Pull-Ups"
@@ -57,7 +57,7 @@
             "muscleGroup": "Arms",
             "primaryMuscle": "Biceps Brachii",
             "secondaryMuscles": [],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Dumbbells",
                 "Beginner": "Resistance Bands"
             }
@@ -67,7 +67,7 @@
             "muscleGroup": "Arms",
             "primaryMuscle": "Triceps Brachii",
             "secondaryMuscles": ["Chest", "Shoulders"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Parallel Bars",
                 "Beginner": "Bench or Chair"
             }
@@ -77,7 +77,7 @@
             "muscleGroup": "Legs",
             "primaryMuscle": "Quadriceps",
             "secondaryMuscles": ["Glutes", "Hamstrings"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Dumbbells",
                 "Beginner": "Bodyweight"
             }
@@ -87,7 +87,7 @@
             "muscleGroup": "Chest",
             "primaryMuscle": "Pectorals",
             "secondaryMuscles": [],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Pec Deck Machine",
                 "Beginner": "Resistance Bands"
             }
@@ -97,7 +97,7 @@
             "muscleGroup": "Legs",
             "primaryMuscle": "Quadriceps",
             "secondaryMuscles": ["Glutes", "Hamstrings"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Leg Press Machine"
             }
         },
@@ -106,7 +106,7 @@
             "muscleGroup": "Back",
             "primaryMuscle": "Latissimus Dorsi",
             "secondaryMuscles": ["Biceps", "Forearms"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Weighted Chin-Ups",
                 "Intermediate": "Bodyweight Chin-Ups",
                 "Beginner": "Assisted Chin-Ups"
@@ -117,7 +117,7 @@
             "muscleGroup": "Shoulders",
             "primaryMuscle": "Deltoids",
             "secondaryMuscles": [],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced":"Cable Machine",
                 "Intermediate": "Dumbbells",
                 "Beginner": "Resistance Bands"
@@ -128,7 +128,7 @@
             "muscleGroup": "Arms",
             "primaryMuscle": "Biceps Brachii",
             "secondaryMuscles": [],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Dumbbells",
                 "Beginner": "Resistance Bands"
             }
@@ -138,7 +138,7 @@
             "muscleGroup": "Arms",
             "primaryMuscle": "Biceps Brachii",
             "secondaryMuscles": ["Brachialis", "Forearms"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Dumbbells",
                 "Beginner": "Resistance Bands"
             }
@@ -148,7 +148,7 @@
             "muscleGroup": "Legs",
             "primaryMuscle": "Hamstrings",
             "secondaryMuscles": [],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Intermediate": "Leg Curl Machine"
             }
         },
@@ -157,7 +157,7 @@
             "muscleGroup": "Legs",
             "primaryMuscle": "Gastrocnemius",
             "secondaryMuscles": ["Soleus"],
-            "DifficultyEquipment": {
+            "difficultyEquipment": {
                 "Advanced": "Standing Calf Raise Machine",
                 "Intermediate": "Dumbbells",
                 "Beginner": "Bodyweight"

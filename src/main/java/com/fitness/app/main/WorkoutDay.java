@@ -1,7 +1,7 @@
-package main;
+package com.fitness.app.main;
 
-import util.Enums;
-import main.Exercise;
+import com.fitness.app.util.Enums.Day;
+import com.fitness.app.main.Exercise;
 
 public class WorkoutDay {
     public Day name;
